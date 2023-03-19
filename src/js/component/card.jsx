@@ -12,7 +12,7 @@ const Card = ({elemento,picture,type}) =>{
 	
 	let imgid='';
 	if (type=='people'){
-		imgid='characters';
+		imgid='characters'; 
 	}else{
 		imgid=type;
 	}
